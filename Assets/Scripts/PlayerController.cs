@@ -14,5 +14,6 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         //Mover o veículo para frente
+        transform.Translate(0, 0, 1);
     }
 }
