@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public float speed = 20;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -15,7 +17,7 @@ public class PlayerController : MonoBehaviour
     {
         // Mover o veículo para frente
 
-        transform.Translate(Vector3.forward * Time.deltaTime * 20 );
+        transform.Translate(Vector3.forward * Time.deltaTime * speed );
         
     }
 }
